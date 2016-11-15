@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<phpunit bootstrap="Bootstrap.php" colors="true">
+<phpunit bootstrap="module/Album/test/Bootstrap.php" colors="true">
     <testsuites>
         <testsuite name="zf2tutorial">
-            <directory>./AlbumTest</directory>
+            <directory>module/Album/test/AlbumTest</directory>
         </testsuite>
     </testsuites>
 </phpunit>
